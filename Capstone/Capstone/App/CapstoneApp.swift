@@ -11,13 +11,23 @@ import Firebase
 @main
 struct CapstoneApp: App {
     
+    @State private var isLoggedIn: Bool = false
+    @State private var showRegister: Bool = false
+    
     init() {
         FirebaseApp.configure()
     }
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            if isLoggedIn {
+                ContentView()
+            } else if !showRegister {
+                LoginView(isLoggedIn: $isLoggedIn, showRegister: $showRegister)
+            } else {
+                RegisterView(showRegister: $showRegister)
+            }
+            
         }
     }
 }

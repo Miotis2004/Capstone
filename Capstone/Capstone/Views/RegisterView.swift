@@ -8,13 +8,22 @@
 import SwiftUI
 
 struct RegisterView: View {
+    
+    @Binding var showRegister: Bool
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button(action: {
+            showRegister.toggle()
+            }, label: {
+            Text("REGISTER")
+                .foregroundColor(.black)
+                .font(.subheadline)
+        })
     }
 }
 
 struct RegisterView_Previews: PreviewProvider {
     static var previews: some View {
-        RegisterView()
+        RegisterView(showRegister: .constant(true))
     }
 }
