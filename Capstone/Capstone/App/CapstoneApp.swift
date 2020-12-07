@@ -7,6 +7,7 @@
 
 import SwiftUI
 import Firebase
+import FirebaseAuth
 
 @main
 struct CapstoneApp: App {
@@ -14,8 +15,13 @@ struct CapstoneApp: App {
     @State private var isLoggedIn: Bool = false
     @State private var showRegister: Bool = false
     
+    
     init() {
         FirebaseApp.configure()
+        
+//        if FirebaseAuth.Auth.auth().currentUser != nil {
+//            isLoggedIn = true
+//        }
     }
     
     var body: some Scene {

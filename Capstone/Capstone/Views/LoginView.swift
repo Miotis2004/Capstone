@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import FirebaseAuth
 
 struct LoginView: View {
     @State private var email: String = ""
@@ -20,22 +21,28 @@ struct LoginView: View {
 //            Color.red
             
             VStack {
-                Text("LOGIN")
-                    .font(.title)
-                    .bold()
+                Image(systemName: "message")
+                    .font(.system(size: 75, weight: .bold))
+                    .foregroundColor(Color(.systemGreen))
                 
                 Spacer()
                 
                 TextField("Email", text: $email)
                     .padding(20)
-                
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
                 TextField("Password", text: $password)
                     .padding(20)
-                
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
                 Spacer()
                 
                 Button(action: {
-                    isLoggedIn.toggle()
+                    FirebaseAuth.Auth.auth().signIn(withEmail: email, password: password, completion: { authResult, error in
+                            guard let result = authResult, error == nil else {return}
+                            
+                            let user = result.user
+                            print("Logged in user \(user)")
+                            isLoggedIn.toggle()
+                        })
                     }, label: {
                     Text("LOGIN")
                         .font(.system(size: 25))
@@ -64,3 +71,4 @@ struct LoginView_Previews: PreviewProvider {
         LoginView(isLoggedIn: .constant(false), showRegister: .constant(false))
     }
 }
+

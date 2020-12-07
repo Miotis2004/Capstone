@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2C92D61FDE6F08B157266D6D /* Pods_Capstone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CDFACF16474167C154596B7 /* Pods_Capstone.framework */; };
+		FD5B0677257EB2D000C27569 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5B0676257EB2D000C27569 /* DatabaseManager.swift */; };
+		FD5B067A257EB44700C27569 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5B0679257EB44700C27569 /* UserModel.swift */; };
 		FD9B8A95257D9FBF0060288A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FD9B8A94257D9FBF0060288A /* GoogleService-Info.plist */; };
 		FDA758AC257D93BA00029B73 /* CapstoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA758AB257D93BA00029B73 /* CapstoneApp.swift */; };
 		FDA758AE257D93BA00029B73 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA758AD257D93BA00029B73 /* ContentView.swift */; };
@@ -26,6 +28,8 @@
 		2CDFACF16474167C154596B7 /* Pods_Capstone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Capstone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39162305BC20DB8FC489CCAE /* Pods-Capstone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Capstone.release.xcconfig"; path = "Target Support Files/Pods-Capstone/Pods-Capstone.release.xcconfig"; sourceTree = "<group>"; };
 		66DFB899E9231C788ABD1F41 /* Pods-Capstone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Capstone.debug.xcconfig"; path = "Target Support Files/Pods-Capstone/Pods-Capstone.debug.xcconfig"; sourceTree = "<group>"; };
+		FD5B0676257EB2D000C27569 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		FD5B0679257EB44700C27569 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		FD9B8A94257D9FBF0060288A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FDA758A8257D93BA00029B73 /* Capstone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Capstone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDA758AB257D93BA00029B73 /* CapstoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapstoneApp.swift; sourceTree = "<group>"; };
@@ -97,6 +101,7 @@
 		FD9B8A9F257DA6030060288A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				FD5B0676257EB2D000C27569 /* DatabaseManager.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -104,6 +109,7 @@
 		FD9B8AA0257DA61A0060288A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				FD5B0679257EB44700C27569 /* UserModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -273,6 +279,7 @@
 			files = (
 				FDA758AE257D93BA00029B73 /* ContentView.swift in Sources */,
 				FDEA774E257DA86C0015700B /* ProfileView.swift in Sources */,
+				FD5B0677257EB2D000C27569 /* DatabaseManager.swift in Sources */,
 				FDEA7745257DA81C0015700B /* PhotoViewerView.swift in Sources */,
 				FDEA7741257DA7DD0015700B /* RegisterView.swift in Sources */,
 				FDA758AC257D93BA00029B73 /* CapstoneApp.swift in Sources */,
@@ -280,6 +287,7 @@
 				FDEA773E257DA7BE0015700B /* LoginView.swift in Sources */,
 				FDEA773A257DA70B0015700B /* ConversationsView.swift in Sources */,
 				FDEA7748257DA8300015700B /* VideoPlayerView.swift in Sources */,
+				FD5B067A257EB44700C27569 /* UserModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
