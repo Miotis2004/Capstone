@@ -3,23 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C92D61FDE6F08B157266D6D /* Pods_Capstone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CDFACF16474167C154596B7 /* Pods_Capstone.framework */; };
+		FD9B8A95257D9FBF0060288A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FD9B8A94257D9FBF0060288A /* GoogleService-Info.plist */; };
 		FDA758AC257D93BA00029B73 /* CapstoneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA758AB257D93BA00029B73 /* CapstoneApp.swift */; };
 		FDA758AE257D93BA00029B73 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDA758AD257D93BA00029B73 /* ContentView.swift */; };
 		FDA758B0257D93BB00029B73 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA758AF257D93BB00029B73 /* Assets.xcassets */; };
 		FDA758B3257D93BB00029B73 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDA758B2257D93BB00029B73 /* Preview Assets.xcassets */; };
+		FDEA773A257DA70B0015700B /* ConversationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEA7739257DA70B0015700B /* ConversationsView.swift */; };
+		FDEA773E257DA7BE0015700B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEA773D257DA7BE0015700B /* LoginView.swift */; };
+		FDEA7741257DA7DD0015700B /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEA7740257DA7DD0015700B /* RegisterView.swift */; };
+		FDEA7745257DA81C0015700B /* PhotoViewerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEA7744257DA81C0015700B /* PhotoViewerView.swift */; };
+		FDEA7748257DA8300015700B /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEA7747257DA8300015700B /* VideoPlayerView.swift */; };
+		FDEA774B257DA85C0015700B /* NewConversationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEA774A257DA85C0015700B /* NewConversationView.swift */; };
+		FDEA774E257DA86C0015700B /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDEA774D257DA86C0015700B /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2CDFACF16474167C154596B7 /* Pods_Capstone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Capstone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39162305BC20DB8FC489CCAE /* Pods-Capstone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Capstone.release.xcconfig"; path = "Target Support Files/Pods-Capstone/Pods-Capstone.release.xcconfig"; sourceTree = "<group>"; };
+		66DFB899E9231C788ABD1F41 /* Pods-Capstone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Capstone.debug.xcconfig"; path = "Target Support Files/Pods-Capstone/Pods-Capstone.debug.xcconfig"; sourceTree = "<group>"; };
+		FD9B8A94257D9FBF0060288A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FDA758A8257D93BA00029B73 /* Capstone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Capstone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDA758AB257D93BA00029B73 /* CapstoneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapstoneApp.swift; sourceTree = "<group>"; };
 		FDA758AD257D93BA00029B73 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FDA758AF257D93BB00029B73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDA758B2257D93BB00029B73 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FDA758B4257D93BB00029B73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDEA7739257DA70B0015700B /* ConversationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsView.swift; sourceTree = "<group>"; };
+		FDEA773D257DA7BE0015700B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		FDEA7740257DA7DD0015700B /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		FDEA7744257DA81C0015700B /* PhotoViewerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerView.swift; sourceTree = "<group>"; };
+		FDEA7747257DA8300015700B /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		FDEA774A257DA85C0015700B /* NewConversationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationView.swift; sourceTree = "<group>"; };
+		FDEA774D257DA86C0015700B /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +47,74 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C92D61FDE6F08B157266D6D /* Pods_Capstone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04129C4D1F82796A603877CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CDFACF16474167C154596B7 /* Pods_Capstone.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF4D3D5EC44E9AF28A563F9A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				66DFB899E9231C788ABD1F41 /* Pods-Capstone.debug.xcconfig */,
+				39162305BC20DB8FC489CCAE /* Pods-Capstone.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FD9B8A8F257D97390060288A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FDEA773D257DA7BE0015700B /* LoginView.swift */,
+				FDEA7739257DA70B0015700B /* ConversationsView.swift */,
+				FDEA7740257DA7DD0015700B /* RegisterView.swift */,
+				FDEA7744257DA81C0015700B /* PhotoViewerView.swift */,
+				FDEA7747257DA8300015700B /* VideoPlayerView.swift */,
+				FDEA774A257DA85C0015700B /* NewConversationView.swift */,
+				FDEA774D257DA86C0015700B /* ProfileView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FD9B8A9D257DA5950060288A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FDA758AB257D93BA00029B73 /* CapstoneApp.swift */,
+				FDA758AD257D93BA00029B73 /* ContentView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FD9B8A9F257DA6030060288A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FD9B8AA0257DA61A0060288A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		FDA7589F257D93BA00029B73 = {
 			isa = PBXGroup;
 			children = (
 				FDA758AA257D93BA00029B73 /* Capstone */,
 				FDA758A9257D93BA00029B73 /* Products */,
+				BF4D3D5EC44E9AF28A563F9A /* Pods */,
+				04129C4D1F82796A603877CC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,8 +129,12 @@
 		FDA758AA257D93BA00029B73 /* Capstone */ = {
 			isa = PBXGroup;
 			children = (
-				FDA758AB257D93BA00029B73 /* CapstoneApp.swift */,
-				FDA758AD257D93BA00029B73 /* ContentView.swift */,
+				FDEA7738257DA6990015700B /* ViewModels */,
+				FD9B8AA0257DA61A0060288A /* Models */,
+				FD9B8A9F257DA6030060288A /* Controllers */,
+				FD9B8A9D257DA5950060288A /* App */,
+				FD9B8A94257D9FBF0060288A /* GoogleService-Info.plist */,
+				FD9B8A8F257D97390060288A /* Views */,
 				FDA758AF257D93BB00029B73 /* Assets.xcassets */,
 				FDA758B4257D93BB00029B73 /* Info.plist */,
 				FDA758B1257D93BB00029B73 /* Preview Content */,
@@ -69,6 +150,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		FDEA7738257DA6990015700B /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,9 +164,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FDA758B7257D93BB00029B73 /* Build configuration list for PBXNativeTarget "Capstone" */;
 			buildPhases = (
+				902BC954CB714015A6D6A76B /* [CP] Check Pods Manifest.lock */,
 				FDA758A4257D93BA00029B73 /* Sources */,
 				FDA758A5257D93BA00029B73 /* Frameworks */,
 				FDA758A6257D93BA00029B73 /* Resources */,
+				FC440E80424FB3E208E8EAAC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,10 +218,53 @@
 			files = (
 				FDA758B3257D93BB00029B73 /* Preview Assets.xcassets in Resources */,
 				FDA758B0257D93BB00029B73 /* Assets.xcassets in Resources */,
+				FD9B8A95257D9FBF0060288A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		902BC954CB714015A6D6A76B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Capstone-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC440E80424FB3E208E8EAAC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Capstone/Pods-Capstone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Capstone/Pods-Capstone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Capstone/Pods-Capstone-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FDA758A4257D93BA00029B73 /* Sources */ = {
@@ -139,7 +272,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDA758AE257D93BA00029B73 /* ContentView.swift in Sources */,
+				FDEA774E257DA86C0015700B /* ProfileView.swift in Sources */,
+				FDEA7745257DA81C0015700B /* PhotoViewerView.swift in Sources */,
+				FDEA7741257DA7DD0015700B /* RegisterView.swift in Sources */,
 				FDA758AC257D93BA00029B73 /* CapstoneApp.swift in Sources */,
+				FDEA774B257DA85C0015700B /* NewConversationView.swift in Sources */,
+				FDEA773E257DA7BE0015700B /* LoginView.swift in Sources */,
+				FDEA773A257DA70B0015700B /* ConversationsView.swift in Sources */,
+				FDEA7748257DA8300015700B /* VideoPlayerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +404,7 @@
 		};
 		FDA758B8257D93BB00029B73 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66DFB899E9231C788ABD1F41 /* Pods-Capstone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -286,6 +427,7 @@
 		};
 		FDA758B9257D93BB00029B73 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39162305BC20DB8FC489CCAE /* Pods-Capstone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
