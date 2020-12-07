@@ -46,8 +46,11 @@ struct LoginView: View {
                     }, label: {
                     Text("LOGIN")
                         .font(.system(size: 25))
-                        .foregroundColor(.black)
+                        .foregroundColor(.white)
                         .bold()
+                        .padding()
+                        .background(RoundedRectangle(cornerRadius: 10))
+                        .background(Color.blue)
                 })
                 .padding()
                 
